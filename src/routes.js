@@ -2,6 +2,7 @@ import BatchView from "views/BatchView.jsx";
 import StudentPage from "views/StudentView.jsx";
 import SchoolView from "views/SchoolView";
 import StudentsView from "views/StudentsView.jsx"
+import SemesterView from "views/SemesterView";
 
 
 var routes = [
@@ -10,6 +11,13 @@ var routes = [
     name: "School",
     icon: "nc-icon nc-tile-56",
     component: SchoolView,
+    layout: "/school"
+  },
+  {
+    path: "/semester",
+    name: "Semester",
+    icon: "nc-icon nc-tile-56",
+    component: SemesterView,
     layout: "/school"
   },
   {

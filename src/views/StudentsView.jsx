@@ -131,7 +131,7 @@ class StudentsView extends React.Component {
             <Col md="12">
               <Form>
                 <FormGroup>
-                  <Label for="exampleSelect">Select</Label>
+                  <Label for="exampleSelect">Select Batch</Label>
                   <Input type="select" name="select" id="exampleSelect"  value={this.state.selectedBatchId} onChange={this.selectValue}>
                     {selectOptions}
                   </Input>
