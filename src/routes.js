@@ -3,6 +3,7 @@ import StudentPage from "views/StudentView.jsx";
 import SchoolView from "views/SchoolView";
 import StudentsView from "views/StudentsView.jsx"
 import SemesterView from "views/SemesterView";
+import SubjectsView from "views/SubjectsView";
 
 
 var routes = [
@@ -32,6 +33,13 @@ var routes = [
     name: "Students ",
     icon: "nc-icon nc-single-02",
     component: StudentsView,
+    layout: "/school"
+  },
+  {
+    path: "/subjects",
+    name: "Subjects ",
+    icon: "nc-icon nc-tile-56",
+    component: SubjectsView,
     layout: "/school"
   },
   {
